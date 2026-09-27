@@ -1,0 +1,13 @@
+# Mixin Rust source-level mixin prototype
+# The parser and patch engine are intentionally not implemented yet.
+
+[target]
+path = "crate::simulation::traffic::TrafficSystem::update"
+
+[operation]
+kind = "before"
+
+[code]
+source = """
+my_custom_traffic_logic();
+"""

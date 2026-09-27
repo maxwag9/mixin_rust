@@ -1,0 +1,7 @@
+[package]
+name = "mixin_rust_backend"
+version = "0.1.0"
+edition = "2024"
+description = "The backend of the mixin_rust project. It handles the mixins and source files aswell as sandboxing."
+
+[dependencies]

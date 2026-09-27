@@ -1,0 +1,11 @@
+[package]
+name = "mixin_rust_gui"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Native GUI launcher and build orchestrator for Mixin Rust"
+
+[dependencies]
+eframe = "0.36.2"
+rfd = "0.17.2"
+backend = { package = "mixin_rust_backend", path = "../mixin_rust_backend" }

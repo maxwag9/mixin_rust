@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "mixin_rust_gui",
+    "mixin_rust_backend",
+]
+
+resolver = "3"
