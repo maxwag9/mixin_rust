@@ -6,6 +6,10 @@ license = "MIT OR Apache-2.0"
 description = "Native GUI launcher and build orchestrator for Mixin Rust"
 
 [dependencies]
-eframe = "0.36.2"
+eframe = { version = "0.36.2", features = ["persistence"] }
 rfd = "0.17.2"
 backend = { package = "mixin_rust_backend", path = "../mixin_rust_backend" }
+image = "0.25.10"
+strum_macros = "0.28.0"
+noyalib = { version = "0.0.51", features = ["compat-serde-yaml"] }
+serde = { version = "1.0.229", features = ["derive"] }
